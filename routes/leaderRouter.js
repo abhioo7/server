@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-
+const cors = require('./cors');
 const leader = require('../models/leaders');
 
 const leaderRouter = express.Router();
